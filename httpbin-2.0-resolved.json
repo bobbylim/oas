@@ -309,6 +309,16 @@
         }
       }
     },
+    "/json": {
+      "get": {
+        "summary": "Returns the sample JSON response.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/delay/{n}": {
       "get": {
         "summary": "Delays responding for min(n, 10) seconds.",
